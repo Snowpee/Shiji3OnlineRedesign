@@ -1,0 +1,103 @@
+body{
+
+}
+.title{
+	font-family: helvetica,"Hiragino Sans GB","STHeiti","WenQuanYi Micro Hei","Microsoft YaHei",SimSun,sans-serif;
+}
+
+/*首页描述*/
+#shiji_index .type-1-pins .left-part .title {
+	display: block;
+	text-align: center;
+	font-size: 18px;
+	padding: 0 4em;
+	line-height: 1.5em;
+}
+#shiji_index .type-2-pins .title {
+	display: block;
+	font-size: 18px;
+	margin-bottom: 30px;
+	padding: 0 4em;
+	line-height: 1.5em;
+}
+#shiji_index .type-2-pins .description {
+	top: 620px;
+}
+
+#shiji_index .type-3-pins .title {
+	display: block;
+	line-height: 1.4;
+	padding: 0 3em;
+	line-height: 1.5em;
+}
+/*首页图片内阴影细节*/
+#shiji_index .featured-item .item .item-img {
+	display: block;
+	box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+}
+#shiji_index .featured-item .item .go:before,
+#shiji_index .featured-item .item .go:hover{
+	content: "";
+	display: block;
+	box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.07);
+	z-index: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute
+}
+
+#shiji_index .featured-item .item .cover {
+	z-index:2;
+}
+
+#shiji_index .featured-item .item .btn-bar {
+	z-index:3;
+}
+.item img{
+	display:block;
+}
+
+
+/*----小铺管理页面----*/
+
+/* 右侧tips */
+#shiji_shop_management_settings .main .tips h3 {
+	font-size: 18px;
+	margin-bottom: 10px;
+	color: #444;
+}
+.tips p{
+	line-height:1.5em;
+	margin-bottom: 0;
+}
+#shiji_shop_management_settings .main .tips, #shiji_shop_management_boards .main .tips, #shiji_shop_management_boxes_index .main .tips {
+
+	background-color: #fafafa;
+
+}
+
+/*input text-area*/
+.shiji-pages input[type=text], .shiji-pages textarea {
+	border: 1px solid #ccc;
+	background: #FFF;
+	padding: 10px;
+	font-size: 14px;
+	color: #999;
+	box-shadow: none;
+}
+.shiji-pages textarea {
+	width: 500px;
+	height: 100px;
+	line-height:1.5em;
+}
+
+.board-images img{
+	display: block;
+	margin: 0 8px 8px 0;
+	line-height: 0;
+	float: left;
+}
+.board-images:nth-child(3) {
+	margin: 0 0 8px 0;
+}
+    
